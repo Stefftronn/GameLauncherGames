@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="GameLauncher.exe" version="1.0.0.2" publicKeyToken="425f3918b45edf18" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="GameLauncher.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17320">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="16384">
       <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hHGUvRDv3UoQeJ/uLxPnaxqzPtR4ZHZYtqbbwrdl9D8=</dsig:DigestValue>
+        <dsig:DigestValue>OpL2VzofBj6U+JErGDfKhX1C05cAborQULYvacXPWwU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -98,22 +98,22 @@
       <dsig:DigestValue>YyYN5Au5JePVpByr3PHtm25cIz3i3p3f6mu/D9CCNeI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="GameLauncher.dll" size="34216">
+  <file name="GameLauncher.dll" size="33280">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>fUoCNFCuCDGcNB0UGwi87qj6qtZLAnqfo4qq3lrBX2s=</dsig:DigestValue>
+      <dsig:DigestValue>KxAz1+oZRG5pxf00JDFgaYmo/nkcrFMlJwY2GH0MpiE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="GameLauncher.exe" size="139688">
+  <file name="GameLauncher.exe" size="138752">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>2Adg9GDqCsEYD4TOPM5w8SvbSbpwAUcxglN5FmOi/lI=</dsig:DigestValue>
+      <dsig:DigestValue>bbd0wEfCq0b1JlEqngEwyp7DyHwVMHUcKmWvZzIzZr8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="GameLauncher.runtimeconfig.json" size="515">
@@ -314,4 +314,4 @@
       <dsig:DigestValue>ssrqpjpM3TXZ79/gkeveU7lxnFUG4nMDBqldKD2OJMc=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=SWAX\Florian" issuerKeyHash="6dbf9c626a00fbf04e644ec1538fd1db8ee5ac06" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lpdSW4NNF9lX0j8v0jvamNUOvUpPTMBmEYks2GpMHzU=</DigestValue></Reference></SignedInfo><SignatureValue>NuEwKdg7qN/1RtNNJ3WUTIHbHu4XzkuhKI7iGeP0CLKHtffl9aopPxRS1q3X89qbEHpMnnsBQgrK14qCj08jlYEVp0NyUEeXm2e3k3ADf4VW4ZxlSxLmLPTLbGBpkQux1xv+JHYO6TSFRt5pQx1XX0+JgBNu8/aueWBzHTQhVJo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zsBP5SfcZMAh+0XI2ZGj5OYAR9JgzOUZ+QGjO7/cmQ06IgeMbIB/u0Zpv4VTqRQUZSoibTWpvfte8vdbZrTwnKIGNNlHTnhX39etp9JpcEx52oT9uAjmHzZRBWClRK+OYguCVZH1qGV27LDF4xURvemCy+MD3IJ6mjOPk54vSok=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="351f4c6ad82c891166c04c4f4abd0ed598da3bd22f3fd257d9174d835b529796" Description="" Url=""><as:assemblyIdentity name="GameLauncher.exe" version="1.0.0.2" publicKeyToken="425f3918b45edf18" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SWAX\Florian</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YxrP9RpnnL3UKJTCYgfcHhPVnG6soyPLyPmC3MQku58=</DigestValue></Reference></SignedInfo><SignatureValue>mNZVZq3PGfLrAkaMWX3iafG10yBuiEvow2U2LAHgDhqy0gQqrNH8LRKkEECvd11AuBSjFbRE+yNWQvLnXriPqWLl9t8zYb2XgsImEp5OvwIIU2Lh27/isWA9nvms0bQaXsixws7V98M5psGGwgMNevTYRa+BiMUWzx5HNU2E1IU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zsBP5SfcZMAh+0XI2ZGj5OYAR9JgzOUZ+QGjO7/cmQ06IgeMbIB/u0Zpv4VTqRQUZSoibTWpvfte8vdbZrTwnKIGNNlHTnhX39etp9JpcEx52oT9uAjmHzZRBWClRK+OYguCVZH1qGV27LDF4xURvemCy+MD3IJ6mjOPk54vSok=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQQsNFYGpawa1OrUpcGw36LjANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAUwBXAEEAWABcAEYAbABvAHIAaQBhAG4wHhcNMjUwNDI2MjEyMTQwWhcNMjYwNDI3MDMyMTQwWjAjMSEwHwYDVQQDHhgAUwBXAEEAWABcAEYAbABvAHIAaQBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM7AT+Un3GTAIftFyNmRo+TmAEfSYMzlGfkBozu/3JkNOiIHjGyAf7tGab+FU6kUFGUqIm01qb37XvL3W2a08JyiBjTZR054V9/XrafSaXBMedqE/bgI5h82UQVgpUSvjmILglWR9ahlduywxeMVEb3pgsvjA9yCepozj5OeL0qJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAM7tsOl0tyGIdCVOsPsEVlGcf9JlvwQ0C8kUeO1SzbWkNmlk4IzZ3pjJInd2m2q+pgIewZcc5nVIEogz3W4G+tp3j2TWvrkGdfMjAiYcMfyX//WWUHegXMkZJxI3u2+HNpHYpHKFE6yxxXM7q3ubWii+eL8yUqvYxtW6RJzIw9o4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+</asmv1:assembly>
