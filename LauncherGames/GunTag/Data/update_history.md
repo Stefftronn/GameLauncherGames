@@ -1,4 +1,4 @@
-<span style="color: white;">
+<span style="color: white">
 
 # 0.4.5
 <span style="color:gray"> 26.04.2025 </span>
