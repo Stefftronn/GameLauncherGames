@@ -1,8 +1,14 @@
 <span style="color: white">
 
+---
+
+# 0.4.6
+###### _coming soon_
+
+---
 
 # 0.4.5
-<span style="color:gray"> 26.04.2025 </span>
+###### _26.04.2025_
 
 ### Features
 - Überarbeitung aller Maps
@@ -12,7 +18,5 @@
 ### Bug fixes
 - Bug gefixt, bei dem Spieler an flachen Oberflächen hängen bleiben konnten
 - Bug gefixt, weswegen Spieler keine ein-Spieler-Runden alleine starten konnten
-
----
 
 </span>
