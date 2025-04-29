@@ -1,9 +1,12 @@
-<span style="color: white">
-
 ---
 
 # 0.4.6
 ###### _coming soon_
+
+### Features
+
+### Bug fixes
+- Bug gefixt, welcher einen Durchgang auf Map 9 zu schmall für Spieler gemacht hat
 
 ---
 
@@ -18,5 +21,3 @@
 ### Bug fixes
 - Bug gefixt, bei dem Spieler an flachen Oberflächen hängen bleiben konnten
 - Bug gefixt, weswegen Spieler keine ein-Spieler-Runden alleine starten konnten
-
-</span>
