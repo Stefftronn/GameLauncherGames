@@ -9,6 +9,7 @@
 
 /* Basic Dark Mode Settings */
 body {
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   background-color: var(--bg-color); /* Dark background */
   color: var(--text-color);         /* Light text color for contrast */
