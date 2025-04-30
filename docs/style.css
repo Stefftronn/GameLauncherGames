@@ -1,0 +1,105 @@
+/* Basic Dark Mode Settings */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0;            /* Light text color for contrast */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main heading styling */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* STEP Container to group heading and paragraph together */
+.step {
+  position: relative;      /* Enables absolute positioning for the heading */
+  max-width: 800px;        /* Same max-width as paragraphs and images */
+  margin: 20px auto;       /* Centers the container on the page and adds vertical spacing */
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Positioning the step text (h2) in the top left of its container */
+.step > h2 {
+  position: absolute;      /* Position relative to the .step container */
+  top: -10px;              /* Slightly above the container */
+  left: -10px;             /* Slightly to the left of the container */
+  background-color: #121212;/* Matching the page background for contrast */
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  color: #e0e0e0;
+  margin: 0;
+}
+
+/* Adjust the paragraph inside the step container to avoid overlap */
+.step > p {
+  margin-top: 30px; /* Leaves room for the absolutely positioned heading */
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Code blocks styling */
+code {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Images embedded within the guide */
+img {
+  display: block;
+  max-width: 800px; /* Ensure images don't exceed the paragraph width */
+  width: 100%;      /* Scale image to container width */
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Optional: Styling for figures with captions */
+figure {
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+figure img {
+  margin-bottom: 10px;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+}
+
+/* Smooth transitions for hover effects and dynamic changes */
+body, h1, h2, p, code, img {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .step > h2 {
+    font-size: 1.1rem;
+  }
+  
+  .step > p {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
