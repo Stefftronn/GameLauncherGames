@@ -1,69 +1,95 @@
 /* Grundlegende Einstellungen für Dark Mode */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #121212; /* Dunkler Gesamt-Hintergrund */
-    color: #e0e0e0; /* Helle Schriftfarbe für guten Kontrast */
-    margin: 0;
-    padding: 20px;
-  }
-  
-  /* Überschrift H1 im Zentrum mit weißer Farbe */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #121212; /* Dunkler Hintergrund */
+  color: #e0e0e0;          /* Helle Schriftfarbe */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Hauptüberschrift */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* Abschnittsüberschriften */
+h2 {
+  font-size: 1.75rem;
+  margin: 30px 0 10px;
+  color: #e0e0e0;
+  border-bottom: 2px solid #3498db;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Absatzgestaltung für besseren Kontrast und Lesbarkeit */
+p {
+  font-size: 1rem;
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+/* Code-Blöcke hervorheben */
+code {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Bilder schön einbetten und passend zu den Absätzen skalieren */
+img {
+  display: block;
+  max-width: 800px; /* Maximale Breite entspricht auch der der Paragraphen */
+  width: 100%;
+  height: auto;
+  margin: 20px auto; /* Zentriert das Bild und sorgt für vertikalen Abstand */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Optional: Styling für Bildcontainer mit Beschriftung */
+figure {
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+figure img {
+  margin-bottom: 10px;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+}
+
+/* Sanfte Übergänge bei Hover-Effekten und Änderungen */
+body, h1, h2, p, code, img {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Responsive Anpassungen für kleinere Bildschirme */
+@media (max-width: 768px) {
   h1 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #ffffff;
+    font-size: 2rem;
   }
   
-  /* Schritt-Überschriften mit subtiler Linie als Akzent */
   h2 {
-    font-size: 1.75rem;
-    margin: 30px 0 10px;
-    color: #e0e0e0;
-    border-bottom: 2px solid #3498db; /* Akzentfarbe */
-    display: inline-block;
-    padding-bottom: 5px;
+    font-size: 1.5rem;
   }
   
-  /* Absätze für besseren Kontrast und Lesbarkeit */
   p {
-    font-size: 1rem;
-    background-color: #1e1e1e;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
-    max-width: 800px;
-    margin: 0 auto 20px;
+    font-size: 0.9rem;
+    padding: 10px;
   }
-  
-  /* Code-Blöcke optisch hervorheben */
-  code {
-    background-color: #2a2a2a;
-    color: #e0e0e0;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  /* Sanfte Übergänge für alle Elemente */
-  body, h1, h2, p, code {
-    transition: all 0.3s ease-in-out;
-  }
-  
-  /* Responsive Anpassungen für kleinere Bildschirme */
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 2rem;
-    }
-    
-    h2 {
-      font-size: 1.5rem;
-    }
-    
-    p {
-      font-size: 0.9rem;
-      padding: 10px;
-    }
-  }
-  
+}
