@@ -1,8 +1,0 @@
-/docs
-  .nojekyll
-  WpfApp.application
-  setup.exe
-  WpfApp_1_0_0_0/
-    WpfApp.exe.deploy
-    WpfApp.exe.manifest
-    ...
