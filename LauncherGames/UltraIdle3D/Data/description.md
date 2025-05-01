@@ -1,1 +1,4 @@
-UltraIdle3D Description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+# Beschreibung 
+UltraIdle ist ein Low-Poly Idle Game, indem du deine eine Fabrik besitzt. Du reinvestierst deine Gewinne, um zum Großkonzern aufzusteigen! Dabei schaltest du Erfolge frei und erhälst dadurch Boni.
+
+Viel Erfolg Boss und frohes hustlen.

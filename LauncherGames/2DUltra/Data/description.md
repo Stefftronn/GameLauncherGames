@@ -1,1 +1,5 @@
-2DUltra Description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+# Beschreibung 
+
+Simpler 2D-Plattformer, indem es darum geht auf unterschiedlichen Maps so schnell wie möglich Münzen zu sammeln. Dabei gilt es so schnell wie möglich zu sein, um Rekorde zu ergattern und neue Skins freizuschalten.
+
+Springe von Münze zu Münze bis zum Weltrekord.
