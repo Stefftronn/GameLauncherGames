@@ -8,6 +8,7 @@
 ### Bug fixes
 - Bug gefixt, welcher einen Durchgang auf Map 9 zu schmall für Spieler gemacht hat
 
+
 ---
 
 # 0.4.5
