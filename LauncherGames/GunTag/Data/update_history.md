@@ -7,7 +7,7 @@
 - Einstellungsmenu eingefügt
 
 ### Bug fixes
-- Bug gefixt, welcher einen Durchgang auf Map 9 zu schmall für Spieler gemacht hat
+- Bug gefixt, welcher einen Durchgang auf Map 9 zu schmal für Spieler gemacht hat
 - Bug gefixt, der die Scrollgeschwindigkeit bei der Map-Auswahl stark verringert wurde
 - Bug gefixt, durch welchen die Anzeige der Maps in der Mitte, statt am Anfang begann
 - Bug gefixt, welcher das Schießen des Tickers verhindert hat
