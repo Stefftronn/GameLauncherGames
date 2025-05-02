@@ -7,7 +7,7 @@
 ### Bug fixes
 - Bug gefixt, weshalb die Lebensanzeige bei Respawns zurückgesetzt wurde
 - Bug gefixt, welcher Gegner bei Kollision mit dem Spieler getötet hat
-- Bug gefixt, welcher die V-Sync und Fullscreen Einstellungen nicht änderbar gemacht hat.
+- Bug gefixt, welcher die V-Sync und Fullscreen Einstellungen nicht änderbar gemacht hat
 
 ---
 
