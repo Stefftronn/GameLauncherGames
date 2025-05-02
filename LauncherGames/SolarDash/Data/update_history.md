@@ -9,6 +9,8 @@
 - Bug gefixt, welcher Gegner bei Kollision mit dem Spieler getötet hat
 - Bug gefixt, welcher die V-Sync und Fullscreen Einstellungen nicht änderbar gemacht hat.
 
+---
+
 # 1.3.0
 ###### _02.05.2025_
 
