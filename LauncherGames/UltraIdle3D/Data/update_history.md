@@ -2,7 +2,7 @@
 ###### _03.05.2025_
 
 ### Features
-- keine
+- kleine, visuelle Verbesserungen an Gebäuden und der Landschaft
 
 ### Bug fixes
 - Bug gefixt, welcher das UI im Hauptmenu blockiert hat
