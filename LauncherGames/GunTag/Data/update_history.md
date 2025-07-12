@@ -17,9 +17,13 @@
 - Maximale Spieleranzahl pro Runde auf 5 erhöht
 - Quit Button eingefügt
 
+
 ### Bug fixes
 - Bug gefixt, welcher die Synchronisation von Item-Effekten verfälscht hat 
 - Bug gefixt, bei dem Items falsch synchronisiert wurden
+
+
+---
 
 # 0.5.0 
 ###### _01.05.2025_
