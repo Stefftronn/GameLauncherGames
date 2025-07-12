@@ -1,3 +1,26 @@
+# 0.6.0 
+###### _12.07.2025_
+
+### Features
+- Map Hintergründe eingefügt 
+
+- BattlePass eingefügt
+- Collections Übersicht eingefügt
+- Neue Waffen Skins hinzugefügt
+- Neue Spieler Skins eingefügt
+
+- Spieler explodieren jetzt, wenn ihre Zeit abläuft
+
+- Durschn. Item Interval Lobby Setting eingefügt
+- VSync-Toggle ins Settings Menu hinzugefügt 
+- Discord Benachritigung für Lobbies
+- Maximale Spieleranzahl pro Runde auf 5 erhöht
+- Quit Button eingefügt
+
+### Bug fixes
+- Bug gefixt, welcher die Synchronisation von Item-Effekten verfälscht hat 
+- Bug gefixt, bei dem Items falsch synchronisiert wurden
+
 # 0.5.0 
 ###### _01.05.2025_
 
