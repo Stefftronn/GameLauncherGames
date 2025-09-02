@@ -1,3 +1,12 @@
+# 0.7.0 
+###### _02.09.2025_
+
+### Features
+- Custom-Map-Mode eingefügt
+- BattlePass Stufen-Fortschrittsanzeige
+
+---
+
 # 0.6.0 
 ###### _12.07.2025_
 
