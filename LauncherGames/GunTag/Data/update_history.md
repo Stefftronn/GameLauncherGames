@@ -1,3 +1,13 @@
+# 0.8.0 
+###### _10.09.2025_
+
+### Features
+- Projektil-Typen eingefügt
+
+### Bug fixes
+- fehlerhalfte Blockvorschau im Custom-Modus behoben
+---
+
 # 0.7.0 
 ###### _02.09.2025_
 
